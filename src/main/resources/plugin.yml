@@ -1,0 +1,14 @@
+name: RandomItemDropper
+version: ${project.version}
+main: nl.alvinvrolijk.randomitemdropper.RandomItemDropper
+authors: [AlvinVrolijk]
+description: Drops random instead of the usual drops
+website: https://github.com/AlvinVrolijk/RandomItemDropper
+commands:
+  togglerandomdrops:
+    description: Toggle the random drops
+    permission: randomitemdropper.toggle
+permissions:
+  randomitemdropper.toggle:
+    description: Permission for the random item drops toggle command
+    default: op
